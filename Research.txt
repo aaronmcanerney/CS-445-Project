@@ -1,0 +1,31 @@
+Session Hijacking Research:
+
+1. IP spoofing - attacker uses source-routed IP packets to insert commands into an active
+communication between two nodes on a network and disguising itself as one of the authenticated users.
+
+IP spoofing is possible because it is done at the start of a TCP session
+
+The attacker will sniff a legitimate session and take it over.
+
+
+2. Cross Site Scripting
+
+Attacker can send malicious Javascript to a victim. When the link is clicked,
+the Javascript will run and complete the instructions made by the attacker.
+
+Cross Site Scripting can be stopped by sanitizing input.
+
+Found a vulnerable website (DVWA) that can be used to test cross site scripting
+on kali linux
+
+I will be providing a snapshot of kali linux with DVWA pre installed
+
+Once youve logged onto my snapshot:
+
+1. Log onto kali linux
+2. open terminal and run: sudo service apache2 start
+3. run: sudo service mysql start
+4. check status run: sudo service mysql status
+5. go to localhost/dvwa
+6. log in to site with username=admin password=password
+7. Go to DVWA Security and make sure the level is low (if it is no set it to low)
