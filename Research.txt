@@ -18,9 +18,7 @@ Cross Site Scripting can be stopped by sanitizing input.
 Found a vulnerable website (DVWA) that can be used to test cross site scripting
 on kali linux
 
-I will be providing a snapshot of kali linux with DVWA pre installed
-
-Once youve logged onto my snapshot:
+Steps to set up DVWA:
 
 1. Log onto kali linux
 2. open terminal and run: sudo service apache2 start
@@ -29,3 +27,5 @@ Once youve logged onto my snapshot:
 5. go to localhost/dvwa
 6. log in to site with username=admin password=password
 7. Go to DVWA Security and make sure the level is low (if it is no set it to low)
+
+
