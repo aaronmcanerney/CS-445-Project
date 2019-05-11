@@ -8,8 +8,11 @@ the Javascript will run and complete the instructions made by the attacker.
 
 Cross Site Scripting can be stopped by sanitizing input.
 
-2. How to install DVWA on Kali linux (although my box stopped booting)
+2. How to install DVWA on Kali linux
 
 DVWA is an intentionally vulnerable web app that i will use to test XSS attackes.
 
-Once my vm boots up I will create a snaptshot and provide it on this repo, so it can be used to test my code
+3. I have shared two videos, one showing a cross site scripting attack on a vulnerable site, and another utilizing my javascript cleaner that cleans malicious javascript code so that the attack is stopped.
+
+
+
